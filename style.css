@@ -1,0 +1,84 @@
+body {
+  background: #FFFFFF;
+  color: black;
+  font-size: 25px;
+  font-family: Helvetica;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 45px;
+}
+
+
+h2 {
+  color: #A0A0A0;
+  font-family: 'Crimson Pro', serif;
+  font-size: 35px;
+  opacity: 0.75;
+}
+
+p {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+#banner {
+  text-align: left;
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  padding: 100px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+#banner p {
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+
+.link_medium {
+    background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+    color: #636363;
+    font-weight: lighter;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.link_medium:hover {
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, #7EFFB4, #7EFFB4);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
